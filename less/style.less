@@ -1,0 +1,329 @@
+// out: ../css/style.css, sourcemap: false, compress: true
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #eeeeee ;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #484848;
+
+}
+*{
+  box-sizing: padding-box;
+}
+@color1:blue;
+@color2:white;
+@color3:grey;
+@color4:black;
+@color5:#d81b60;
+@color6:#006064;
+@color7:#fb8c00;
+@color8:#424242;
+@color9:#00acc1;
+@color10:#212121;
+.form-control{
+  border: none;
+}
+.form-controll {
+    width: 100%;
+    border: none;
+}
+.space2{
+  margin-bottom: 12px;
+}
+.buton{
+  border-radius: 3%;
+  background-color:@color2;
+  border:none;
+  color: @color3;
+  padding: 9px 27px;
+  font-size: 12px;
+}
+.collapse.navbar-collapse{
+  color:@color1;
+
+}
+.navbar-header {
+  display: flex;
+  align-content: center;
+}
+.navbar.navbar-default {
+  margin: 0;
+}
+.nav.navbar-nav.navbar-right{
+  .buton{
+    border:2px solid grey;
+  }
+}
+header{
+  background-image: url(../img/four-people-bike.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:600px;
+  background-attachment:local;
+  .text{
+    h1{
+      font-size:60px;
+      color: @color2;
+      font-weight: 700;
+      margin-top: 100px;
+      margin-bottom: 15px;
+    }
+    h4{
+      font-size: 18px;
+      color: @color2;
+      font-weight: bold;
+    }
+    .buton{
+      font-size: 20px;
+    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+}
+.background-trans{
+  background-color:rgba(0, 0, 0,0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 234px;
+  height: 100px;
+  flex-direction: column;
+
+
+  .tex-back {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: @color2;
+    font-size: 20px;
+  }
+
+  .SearchForm{
+    display: flex;
+    background-color: @color2;
+    border: none;
+    margin-bottom: 10px;
+
+    .SearchForm__location{
+      display: flex;
+      flex-direction: row;
+    }
+    .DateRangePickerInput__arrow{
+      display: flex;
+      align-items: center;
+    }
+    .SearchForm__guests{
+
+      border-radius: 0%
+    }
+    .buton-ensav{
+      .buton{
+        background-color: @color5
+
+      }
+    }
+  }
+}
+.btnmedia{
+  display: none;
+  margin-top: 252px;
+  .buton-ensav{
+    .buton{
+      background-color: @color5;
+      color: @color2;
+    }
+  }
+}
+.tous{
+  .container{
+    margin-top: 35px;
+  }
+  .host-banner{
+    background-color: @color2;
+    height: 344px;
+    .va-container{
+      padding-left: 12px;
+      padding-right: 12px;
+      .va-middl{
+        padding-left: 12px;
+        padding-right: 12px;
+        .host-banner_title{
+          line-height: 1.1;
+          margin-bottom: 27px;
+          h3{
+            font-size: 26px;
+          }
+        }
+        .host-banner_subtitle{
+          margin-bottom: 24px;
+        }
+        .buton-ensav{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 24px;
+          .buton{
+            background-color: @color6;
+            color: @color2;
+            margin-top: 50px;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+.section-intro{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 48px;
+  margin-bottom:36px;
+}
+.discovery-card{
+  height: 344px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+  background-size: cover;
+  background-position: center;
+
+  .tex{
+    color: @color2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+}
+.col-md-offset-3 {
+  margin-left: 25%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+
+  .buton-ensav{
+    display: flex;
+    justify-content: center;
+    .buton{
+      border:1px solid grey;
+      font-size: 20px;
+      padding-left: 27px;
+      padding-right: 27px;
+
+    }
+  }
+
+}
+
+
+.col-md-3.velo {
+  background-color: @color9;
+  height: 345px;
+}
+.space4{
+  margin-bottom: 24px;
+  color: @color2;
+  padding-left: 15px;
+}
+.community-card_header{
+  display:flex;
+  justify-content: center;
+  .center-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:100px;
+
+    .h2{
+      color: @color2;
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}
+ul li{
+  list-style: none;
+}
+footer{
+  background-color: @color10;
+  .form-control{
+    margin-top: 10px;
+    width: 240px;
+    background-color: @color8;
+    border:none;
+    color: @color2;
+  }
+  .h5{
+    color: @color2;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .list-layout{
+    color: @color2;
+  }
+  .list-layout-1 li{
+    display:inline-block;
+    color: @color2;
+    padding: O 5px;
+  }
+  .footer-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .touicon{
+    color: @color2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:100%;
+    .icon {
+      display: flex;
+      flex-direction: row;
+      li{
+        margin-left: 20px;
+      }
+    }
+  }
+
+}
+.pcol-md-4.host-banner{
+  background: none;
+}
+@media screen and (max-width: 860px) {
+  .form-control{
+    border: 1px solid @color8;
+  }
+  .btnmedia{
+    display: flex;
+  }
+  .air-slideshow{
+    background-size:cover;
+  }
+
+  .col-md-4.host-banner{
+    display: flex;
+  }
+  #carousel-example-generic{
+    display: none;
+  }
+
+  .discovery-card{
+    margin:0;
+  }
+footer.form-control{
+  width: 660px;
+}
+}
